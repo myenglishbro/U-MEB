@@ -58,6 +58,7 @@ $color-main:rgb(0, 153, 153);
         font-size: 0.75rem;
         list-style: none;
         display: inline;
+        margin-right: 2rem;
         a{
             color: white;
             text-decoration: none;
@@ -82,12 +83,12 @@ $color-main:rgb(0, 153, 153);
 
 //caracteristicas
 
-.feature{
+.benefit{
      display: flex;
      flex-direction: column;
     .icon{
      color: $color-main;
-     font-size: 10rem;
+     font-size: 8.5rem;
      text-align: center;
     }
 
