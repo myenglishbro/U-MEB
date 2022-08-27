@@ -11,6 +11,7 @@
 
 //defino mi variable con el color principal de la web 
 $color-main:rgb(0, 153, 153);
+$color-footer:#F99050;
 
 .btn-main{
     @include btn-base();
@@ -121,7 +122,7 @@ $color-main:rgb(0, 153, 153);
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    .icon{
+    i{
      color: $color-main;
      font-size: 10rem;
      padding: 0;
@@ -129,10 +130,10 @@ $color-main:rgb(0, 153, 153);
     }
 
     .title{
-        margin-top:-2rem;
+        margin-top:-1rem;
         font-size: 1.5rem;
         font-weight: 600;
-        text-align: center;
+        
 
     }
 }

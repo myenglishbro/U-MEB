@@ -123,7 +123,7 @@ nav{
     width: 100%;
     background-color: components.$color-main;
     color: white;
-    padding: 4rem;
+    padding:4rem;
     .kpi{
         display: flex;
         flex-direction: column;
@@ -137,5 +137,47 @@ nav{
             font-size: 0.9;
             color: white;
         }
+    }
+}
+
+.sec-onboarding{
+    .intro{
+        @extend .sec-features,.intro;
+    }
+
+    .steps{
+        padding: 0 7rem 5rem 7rem;
+        display: flex;
+        align-items: center;
+        margin: auto;
+        width: 100%;
+        justify-content: center;
+        .step-separator{
+            flex: 1;
+            border-top: 1px solid #ddd;
+            margin: 0 1rem;
+        }
+    }
+}
+
+.sec-footer-cta{
+    background-color: components.$color-footer;
+    padding: 5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    .footer-cta{
+        max-width:50%;
+        .cta-title{
+            font-size: 2rem;
+    
+        }
+        .cta-description{
+            font-size: 1.1rem;
+        }
+    }
+    img{
+        max-width: 20rem;
     }
 }
