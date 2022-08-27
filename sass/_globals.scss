@@ -1,5 +1,12 @@
 //trayendo mi variable desde -componets.scss para poder usar
 @use "components";
+//creando un mixin para reutilizar codigo en las secciones
+@mixin section-display{
+    width:100%;
+    max-width: 768px;
+    margin: auto;
+    padding:3rem;
+}
 
 body{
     padding: 0;
@@ -21,8 +28,10 @@ nav{
 
 .sec-home{
     display: flex;
-    width:100%;
-    padding:5rem;
+    @include section-display();
+    align-items: center;
+    
+    
     .home-cta{
         flex: 1;
         .cta-text{
@@ -34,4 +43,46 @@ nav{
             font-size: 3rem;
         }
     }
+}
+
+.sec-features{
+   @include section-display();
+   .intro{
+    text-align: center;
+    h3{
+    font-size: 1.8rem;
+    }
+    p{
+        font-size:0.8rem ;
+        color:components.$color-main;
+    }
+   }
+
+   .features{
+    display: flex;
+    gap: 1rem;
+    .text{
+        padding: 2rem 0;
+        max-width: 40%;
+        .feature{
+            display: flex;
+            flex-direction: row;
+            align-items: baseline;
+            .description{
+                margin-left: 1rem;
+                .description-title{
+                    font-size: 1.15rem;
+
+                }
+                .description-text{
+                    font-size: 1rem;
+
+                }
+
+            }
+
+        }
+    }
+
+   }
 }
