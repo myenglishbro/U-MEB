@@ -7,7 +7,10 @@
     margin: auto;
     padding:3rem;
 }
-
+html{
+    //( poniendo anchura del 100% de la anchura de la ventana gráfica)
+    min-width: 100vw;
+}
 body{
     padding: 0;
     margin: 0;
@@ -41,6 +44,15 @@ nav{
         .home-title{
             width: 20rem;
             font-size: 3rem;
+        }
+        .home-description{
+            width: 300px;
+        }
+        .lead-magnet{
+            .input-col{
+                max-width: 200px;
+            }
+
         }
     }
 
@@ -162,7 +174,7 @@ nav{
 
 .sec-footer-cta{
     background-color: components.$color-footer;
-    padding: 5rem;
+    padding: 2rem 0 ;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -181,3 +193,47 @@ nav{
         max-width: 20rem;
     }
 }
+
+//para que funciones con menos de md
+@media (max-width:768px) {
+    .sec-onboarding{
+        .steps{
+            flex-direction: column;
+            .icon-desc{
+                .tittle{
+                    text-align: center;
+                }
+            }
+        }
+    }
+
+    .sec-footer-cta{
+        width: 100%;
+        text-align: center;
+        
+    }
+
+    .sec-benefits{
+
+        .intro {
+           text-align: center;
+            h3{
+                font-size: 2rem;
+            }
+        }
+        }
+
+    .sec-features{
+        .intro{
+            h3{
+                font-size: 2rem;
+            }
+            p{
+                font-size: 1rem;
+            }
+        }
+    }
+
+       
+    
+  }
