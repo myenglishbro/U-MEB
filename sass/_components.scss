@@ -12,7 +12,6 @@
 //defino mi variable con el color principal de la web 
 $color-main:rgb(0, 153, 153);
 $color-footer:#F99050;
-
 .btn-main{
     @include btn-base();
     background-color: $color-main;
@@ -51,6 +50,7 @@ $color-footer:#F99050;
     
 
 }
+
 
 //creando mi menu 
 .main-menu{
@@ -120,6 +120,8 @@ $color-footer:#F99050;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    flex: 1;
+    text-align: center;
     i{
      color: $color-main;
      font-size: 10rem;
