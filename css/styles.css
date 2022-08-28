@@ -1,3 +1,7 @@
+.titulo {
+  font-weight: 600;
+}
+
 #footer {
   background-color: #F99050;
 }
@@ -8,6 +12,24 @@
 
 .fixing-background {
   background-image: url(../assets/img/portada-tutorias.png);
+  background-repeat: no-repeat;
+  background-position: 80%;
+  background-size: cover;
+  position: relative;
+  height: 350px;
+}
+
+.fixing-background2 {
+  background-image: url(../assets/img/final222.png);
+  background-repeat: no-repeat;
+  background-position: 80%;
+  background-size: cover;
+  position: relative;
+  height: 350px;
+}
+
+.fixing-background3 {
+  background-image: url(../assets/img/jumping.png);
   background-repeat: no-repeat;
   background-position: 80%;
   background-size: cover;
@@ -119,6 +141,17 @@ html {
 body {
   padding: 0;
   margin: 0;
+}
+
+.card-border {
+  border: solid 10px white;
+  border-radius: 20px;
+  transition: all ease-out 0.2s;
+  overflow: hidden;
+  background-color: #e1f0e6;
+}
+.card-border:hover {
+  transform: scale(1.05);
 }
 
 .tiktok, .add-style {

@@ -24,6 +24,19 @@ body{
     padding: 0;
     margin: 0;
 }
+.card-border{
+    border:solid 10px white;
+    border-radius: 20px;
+    transition: all ease-out 0.2s;
+    overflow: hidden;
+    background-color: #e1f0e6;
+
+    &:hover
+    {
+        transform: scale(1.05);
+     }
+
+}
 
 .tiktok,.add-style{
     @include section-modify();

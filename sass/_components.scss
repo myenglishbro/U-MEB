@@ -13,7 +13,10 @@
 $color-main:rgb(0, 153, 153);
 $color-footer:#F99050;
 
-
+.titulo{
+    font-weight: 600;
+    
+}
 
 #footer{
     background-color: $color-footer;
@@ -21,14 +24,34 @@ $color-footer:#F99050;
 .fixing{
     background-color: $color-main;
 }
+
 .fixing-background{
   background-image: url(../assets/img/portada-tutorias.png);
    background-repeat: no-repeat;
    background-position: 80%;
    background-size: cover;
+   
    position: relative;
    height: 350px;
 }
+.fixing-background2{
+    background-image: url(../assets/img/final222.png);
+     background-repeat: no-repeat;
+     background-position: 80%;
+     background-size: cover;
+     
+     position: relative;
+     height: 350px;
+  }
+  .fixing-background3{
+    background-image: url(../assets/img/jumping.png);
+     background-repeat: no-repeat;
+     background-position: 80%;
+     background-size: cover;
+   
+     position: relative;
+     height: 350px;
+  }
 .btn-main{
     @include btn-base();
     background-color: $color-main;
