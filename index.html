@@ -20,33 +20,58 @@
     
 </head>
 <body>
-    <div class="alert alert-info alert-dismissible fade show mb-0 text-center fs-5 fw-light"  >
-       
-        Consigue cursos desde solo 1.00 S/ durante un tiempo limitado| Una oferta especial para nuevos estudiantes
-        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close">
-
+    <nav class="navbar navbar-dark navbar-expand-lg   py-3 px-3 brand-color"  >
+        <div class="container">
+        <a href="#" class="navbar-brand"><img src="assets/img/logo.png" class="logo"></a>
+        <button class="navbar-toggler" 
+        type="button" 
+        data-bs-toggle="collapse"
+        data-bs-target="#navmenu">
+         <span class="navbar-toggler-icon"></span>
         </button>
-      </div>
- 
-   <nav class="nav">
-    <div class="logo">
-        <a href="#"><img src="assets/img/logo.png" alt="logo-ucollege"></a>
-    </div>
-    <!--Haciendo que mi menú desaparesca cuando el viewport es pequeño-->
-    <div class="menu d-none d-md-block">
-        <ul class="main-menu">
-           <li><a href="#">Home</a></li>
-           <li><a href="#">Nosotros</a></li>
-           <li><a href="#">Cursos</a></li>
-           <li><a href="#">Blog</a></li>
-           <li><a href="#">Contacto</a></li>
-           <li><a href="#">Contacto</a></li>
-        </ul>
-    </div>
-    <div class="get-started"></div>
-    <button class="btn-sec-s">Iniciar Sesion</button>
-    <button class="btn-main-s">Registrarte</button>
-   </nav> 
+        <div class="collapse navbar-collapse" id="navmenu">
+            <ul class="navbar-nav ms-auto main-menu">
+               <li class="nav-item menu">
+                <a href="#" class="nav-link" class="nav-link">Inicio</a>
+               </li>
+               <li class="nav-item menu">
+                <a href="pages/nosotros.html" class="nav-link">Nosotros</a>
+               </li>
+               <li class="nav-item menu">
+                <a href="pages/horarios.html" class="nav-link">Horarios</a>
+               </li>
+               
+               <li class="nav-item dropdown menu">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <strong></strong>Aprende Gratis
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="pages/recursos.html">Recursos</a></li>
+                  <li><a class="dropdown-item" href="pages/speaking.html">Speaking</a></li>
+                  <li><a class="dropdown-item" href="pages/explicaciones.html">Explicaciones</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="pages/blog.html">Blog</a></li>
+                </ul>
+              </li>
+               <li class="nav-item menu">
+                <a href="pages/cursos.html" class="nav-link">Cursos</a>
+               </li>
+               <li class="nav-item menu">
+                <a href="pages/tutorias.html" class="nav-link">Tutorias</a>
+               </li>
+               <li class="nav-item menu">
+                <a href="pages/pagos.html" class="nav-link">Pagos</a>
+               </li>
+               <li class="nav-item menu">
+                <a href="pages/contacto.html" class="nav-link">Contacto</a>
+               </li>
+
+            </ul>
+        </div>
+        </div>
+    </nav>
+
+
 
    <!--Esta sera mi sección principal  cta:call to action -->
    <section class="sec-home">
