@@ -12,6 +12,10 @@
 //defino mi variable con el color principal de la web 
 $color-main:rgb(0, 153, 153);
 $color-footer:#F99050;
+
+.fixing{
+    background-color: $color-main;
+}
 .btn-main{
     @include btn-base();
     background-color: $color-main;
@@ -137,4 +141,3 @@ $color-footer:#F99050;
 
     }
 }
-
