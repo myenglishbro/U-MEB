@@ -16,6 +16,14 @@ $color-footer:#F99050;
 .fixing{
     background-color: $color-main;
 }
+.fixing-background{
+  background-image: url(../assets/img/portada-tutorias.png);
+   background-repeat: no-repeat;
+   background-position: 80%;
+   background-size: cover;
+   position: relative;
+   height: 350px;
+}
 .btn-main{
     @include btn-base();
     background-color: $color-main;

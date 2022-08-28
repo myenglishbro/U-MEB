@@ -2,6 +2,15 @@
   background-color: rgb(0, 153, 153);
 }
 
+.fixing-background {
+  background-image: url(../assets/img/portada-tutorias.png);
+  background-repeat: no-repeat;
+  background-position: 80%;
+  background-size: cover;
+  position: relative;
+  height: 350px;
+}
+
 .btn-main, .btn-main-s {
   padding: 0.25rem 1.5rem;
   border-radius: 0.25rem;
@@ -105,6 +114,12 @@ html {
 body {
   padding: 0;
   margin: 0;
+}
+
+.tiktok {
+  background-color: white;
+  border-radius: 13px;
+  box-shadow: 0px 0px 70px rgba(102, 102, 102, 0.2);
 }
 
 nav {
