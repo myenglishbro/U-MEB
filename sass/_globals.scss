@@ -20,7 +20,7 @@ html{
     //( poniendo anchura del 100% de la anchura de la ventana gráfica)
     min-width: 100vw;
 }
-//definiendo mis custom properties
+//definiendo mis custom properties-varaibles en css--esto lo aprendi en internet ya que lo encontre en bootstrap
 :root {
     --primary: #0d6efd;
     --dark: #21252f;
@@ -61,7 +61,7 @@ a {
     position: absolute;
     top: 0;
     left: 0;
-    background-color: rgba(21, 20, 51, 0.8);
+    background-color: rgba(0, 153, 153, 0.5);
     z-index: -1;
 }
 
