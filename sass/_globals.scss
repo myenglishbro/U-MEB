@@ -189,18 +189,28 @@ nav{
    }
 }
 
-.sec-benefits{
-    border-top:1px solid components.$color-main;
-    .intro{
-        @extend .sec-features,.intro;
 
-    }
-    .benefit-cards{
-        width: 100%;
-        padding: 0 2rem 2rem 2rem;
-    }
-    
+.sec-beneficios{
+    padding-top: 120px;
+    padding-bottom: 120px;
+
+  
 }
+
+.card-effect {
+    box-shadow: var(--box-shadow);
+    background-color: var(--white);
+    padding: 25px;
+    transition: all 0.35s ease;
+}
+
+.card-effect:hover {
+    box-shadow: none;
+    transform: translateY(5px);
+}
+
+
+
 
 .sec-kpis{
     display: flex;
@@ -244,26 +254,26 @@ nav{
     }
 }
 
-.sec-footer-cta{
-    background-color: components.$color-footer;
-    padding: 2rem 0 ;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    .footer-cta{
-        max-width:50%;
-        .cta-title{
-            font-size: 2rem;
+.sec-footer{
+    .footer-top {
+        padding-top: 90px;
+        padding-bottom: 90px;
+        background-color: var(--dark);
+
+        a {
+            color: var(--body);
+            &:hover{
+                color: var(--white);
+            }
+        }
+    }
     
-        }
-        .cta-description{
-            font-size: 1.1rem;
-        }
+
+    .footer-bottom {
+        background-color: #242933;
     }
-    img{
-        max-width: 20rem;
-    }
+       
+   
 }
 
 //para que funciones con menos de md

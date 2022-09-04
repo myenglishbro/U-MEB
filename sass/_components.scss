@@ -128,12 +128,21 @@ $color-footer:#F99050;
 .benefit{
      display: flex;
      flex-direction: column;
-    i{
-     color: $color-main;
-     font-size: 7.5rem;
-     text-align: center;
-    }
+    .iconbox {
+        width: 54px;
+        height: 54px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: $color-main;
+        color: var(--white);
+        font-size: 32px;
+        border-radius: 100px;
+        flex: none;
+       
 
+    }
+   
     .description{
 
         .title{
@@ -179,4 +188,32 @@ $color-footer:#F99050;
         
 
     }
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+
+    a {
+        width: 34px;
+        height: 34px;
+        background-color: var(--primary);
+        border-radius: 2px solid var(--primary);
+        color: var(--white);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 100px;
+        margin-left: 5px;
+        transition: all 0.4s ease;
+        border: 2px solid var(--primary);
+
+        &:hover{
+            
+                color: var(--primary);
+                background-color: transparent;
+                border-color: $color-main;
+        
+          }
+  }
 }
