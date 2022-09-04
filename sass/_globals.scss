@@ -189,10 +189,48 @@ nav{
    }
 }
 
-
-.sec-beneficios{
+.sec-benefits{
     padding-top: 120px;
     padding-bottom: 120px;
+}
+
+.service{
+    position: relative;
+    z-index: 2;
+    overflow: hidden;
+     
+        &::after{
+        content: '';
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: -100%;
+        left: 0;
+        background-color: components.$color-main;
+        z-index: -1;
+        opacity: 0;
+        transition: all 0.4s ease;
+        }
+    
+        &:hover{
+            .iconbox{
+                background-color: var(--white);
+               color: components.$color-main;
+            }
+
+            h5{
+                color: var(--white);
+            }
+            p{
+                color: var(--white);
+            }
+
+            &::after{
+                opacity: 1;
+                  top: 0;
+
+            }
+        }
 
   
 }
@@ -202,15 +240,11 @@ nav{
     background-color: var(--white);
     padding: 25px;
     transition: all 0.35s ease;
+    &:hover{
+        box-shadow: none;
+        transform: translateY(5px);
+    }
 }
-
-.card-effect:hover {
-    box-shadow: none;
-    transform: translateY(5px);
-}
-
-
-
 
 .sec-kpis{
     display: flex;

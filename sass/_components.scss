@@ -151,19 +151,20 @@ $color-footer:#F99050;
         }
 
         .text{
-          color: #888;
+         
+          font-weight: 600;
+          text-align: center;
+        }
+        .cta{
+            margin-top: 3rem;
+     
           font-weight: 600;
           text-align: center;
         }
 
     }
 
-    .cta{
-        margin-top: 3rem;
-      color: $color-main;
-      font-weight: 600;
-      text-align: center;
-    }
+    
 
 }
 
