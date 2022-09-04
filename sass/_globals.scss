@@ -98,40 +98,18 @@ nav{
 
 }
 
-.sec-home{
-    display: flex;
-    @include section-display();
-    @include section-modify();
-    align-items: center;
-    
-    
-    .home-cta{
-        flex: 1;
-        .cta-text{
-            color: components.$color-main;
-            
-        }
-        .home-title{
-            width: 20rem;
-            font-size: 3rem;
-        }
-        .home-description{
-            width: 300px;
-        }
-        .lead-magnet{
-            .input-col{
-                max-width: 200px;
-            }
 
-        }
-    }
 
-    .home-image{
-        img{
-            max-width: 20rem;
-        }
-    }
+
+
+
+.col-img {
+    background-image: url(../assets/img/home-pic.jpg);
+    background-position: center;
+    background-size: cover;
+    min-height: 500px;
 }
+
 
 .sec-features{
    @include section-display();
