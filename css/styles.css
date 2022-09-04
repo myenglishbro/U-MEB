@@ -120,26 +120,6 @@
   text-align: center;
 }
 
-.icon-desc {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  flex: 1;
-  text-align: center;
-}
-.icon-desc i {
-  color: rgb(0, 153, 153);
-  font-size: 10rem;
-  padding: 0;
-  text-align: center;
-}
-.icon-desc .title {
-  margin-top: -1rem;
-  font-size: 1.5rem;
-  font-weight: 600;
-}
-
 .social-icons {
   display: flex;
   justify-content: center;
@@ -252,7 +232,7 @@ nav {
   min-height: 500px;
 }
 
-.sec-features, .sec-onboarding .intro {
+.sec-features {
   width: 100%;
   max-width: 992px;
   margin: auto;
@@ -261,41 +241,41 @@ nav {
   flex-direction: column;
   align-items: center;
 }
-.sec-features .intro, .sec-onboarding .intro .intro {
+.sec-features .intro {
   text-align: center;
 }
-.sec-features .intro h3, .sec-onboarding .intro .intro h3 {
+.sec-features .intro h3 {
   font-size: 1.8rem;
 }
-.sec-features .intro p, .sec-onboarding .intro .intro p {
+.sec-features .intro p {
   font-size: 0.8rem;
   color: rgb(0, 153, 153);
 }
-.sec-features .features, .sec-onboarding .intro .features {
+.sec-features .features {
   display: flex;
   gap: 1rem;
   align-items: center;
 }
-.sec-features .features .text, .sec-onboarding .intro .features .text {
+.sec-features .features .text {
   padding: 2rem 0;
   flex: 1;
 }
-.sec-features .features .text .feature, .sec-onboarding .intro .features .text .feature {
+.sec-features .features .text .feature {
   display: flex;
   flex-direction: row;
   align-items: center;
 }
-.sec-features .features .text .feature .description, .sec-onboarding .intro .features .text .feature .description {
+.sec-features .features .text .feature .description {
   margin-left: 1rem;
   max-width: 20rem;
 }
-.sec-features .features .text .feature .description .description-title, .sec-onboarding .intro .features .text .feature .description .description-title {
+.sec-features .features .text .feature .description .description-title {
   font-size: 1.15rem;
 }
-.sec-features .features .text .feature .description .description-text, .sec-onboarding .intro .features .text .feature .description .description-text {
+.sec-features .features .text .feature .description .description-text {
   font-size: 1rem;
 }
-.sec-features .features .image img, .sec-onboarding .intro .features .image img {
+.sec-features .features .image img {
   max-width: 20rem;
 }
 
@@ -369,17 +349,6 @@ nav {
   color: white;
 }
 
-.sec-onboarding .steps {
-  padding: 0 7rem 5rem 7rem;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  margin: auto;
-  width: 100%;
-  justify-content: center;
-  gap: 3px;
-}
-
 .sec-footer .footer-top {
   padding-top: 90px;
   padding-bottom: 90px;
@@ -396,12 +365,6 @@ nav {
 }
 
 @media (max-width: 768px) {
-  .sec-onboarding .steps {
-    flex-direction: column;
-  }
-  .sec-onboarding .steps .icon-desc .tittle {
-    text-align: center;
-  }
   .sec-footer-cta {
     width: 100%;
     text-align: center;
@@ -412,10 +375,10 @@ nav {
   .sec-benefits .intro h3 {
     font-size: 2rem;
   }
-  .sec-features .intro h3, .sec-onboarding .intro .intro h3 {
+  .sec-features .intro h3 {
     font-size: 2rem;
   }
-  .sec-features .intro p, .sec-onboarding .intro .intro p {
+  .sec-features .intro p {
     font-size: 1rem;
   }
   .sec-kpis {

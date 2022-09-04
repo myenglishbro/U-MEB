@@ -67,7 +67,7 @@ a {
 
 
 body{
-    padding: 0;
+    padding:0;
     margin: 0;
     font-family: Sora,"sans-serif";
     line-height: 1.7;
@@ -247,24 +247,7 @@ nav{
     }
 }
 
-.sec-onboarding{
-    .intro{
-        @extend .sec-features,.intro;
-    }
 
-    .steps{
-        padding: 0 7rem 5rem 7rem;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        margin: auto;
-        width: 100%;
-        justify-content: center;
-        gap: 3px;
-        
-        
-    }
-}
 
 .sec-footer{
     .footer-top {
@@ -290,16 +273,7 @@ nav{
 
 //para que funciones con menos de md
 @media (max-width:768px) {
-    .sec-onboarding{
-        .steps{
-            flex-direction: column;
-            .icon-desc{
-                .tittle{
-                    text-align: center;
-                }
-            }
-        }
-    }
+   
 
     .sec-footer-cta{
         width: 100%;
