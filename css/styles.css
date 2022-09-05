@@ -144,6 +144,16 @@
   border-color: rgb(0, 153, 153);
 }
 
+form input.form-control {
+  height: 56px;
+}
+
+form .form-control {
+  border: transparent;
+  border-radius: 0;
+  background-color: rgba(0, 0, 0, 0.02);
+}
+
 html {
   min-width: 100vw;
 }
@@ -191,6 +201,13 @@ a {
   left: 0;
   background-color: rgba(0, 153, 153, 0.5);
   z-index: -1;
+}
+
+.sec-plataforma .col-img {
+  background-image: url(../assets/img/plataforma.PNG);
+  background-position: right;
+  background-size: auto;
+  min-height: 500px;
 }
 
 body {

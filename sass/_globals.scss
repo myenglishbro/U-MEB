@@ -65,6 +65,16 @@ a {
     z-index: -1;
 }
 
+.sec-plataforma{
+    .col-img {
+        background-image: url(../assets/img/plataforma.PNG);
+        background-position: right;
+        background-size:auto;
+        min-height: 500px;
+    }
+    
+
+}
 
 body{
     padding:0;
