@@ -210,6 +210,13 @@ a {
   min-height: 500px;
 }
 
+.sec-libro .col-img {
+  background-image: url(../assets/img/footer-gril.jpeg);
+  background-position: right;
+  background-size: contain;
+  min-height: 500px;
+}
+
 body {
   padding: 0;
   margin: 0;
