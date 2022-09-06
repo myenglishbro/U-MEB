@@ -140,7 +140,10 @@
         <div class="row mb-5">
             <div class="col-md-8 mx-auto text-center mt-5">
                 <h6 >Recursos Descargables</h6>
+                
                 <h1>Descarga los tools para tu aprendizaje</h1>
+                <div id="donate-button-container">
+                  <div id="donate-button"></div>
                 <p>Enviar donacion</p>
             </div>
         </div>
@@ -336,7 +339,18 @@
         </div>
     </div>
 </footer>
-  
+<script src="https://www.paypalobjects.com/donate/sdk/donate-sdk.js" charset="UTF-8"></script>
+<script>
+PayPal.Donation.Button({
+env:'production',
+hosted_button_id:'86RDTL44BNJTS',
+image: {
+src:'https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif',
+alt:'Donate with PayPal button',
+title:'PayPal - The safer, easier way to pay online!',
+}
+}).render('#donate-button');
+</script>
 
  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
     
