@@ -89,8 +89,8 @@ a {
 .sec-plataforma{
     .col-img {
         background-image: url(../assets/img/plataforma.PNG);
-        background-position: right;
-        background-size:auto;
+        background-position: center;
+        background-size:cover;
         min-height: 500px;
     }
     
@@ -146,9 +146,9 @@ nav{
 
 .col-img {
     background-image: url(../assets/img/home-pic.jpg);
-    background-position: center;
+    background-position:right top;
     background-size: cover;
-    min-height: 500px;
+    min-height: 800px;
 }
 
 
