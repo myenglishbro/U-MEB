@@ -13,11 +13,23 @@
 
 .fixing-background {
   background-image: url(../assets/img/portada-tutorias.png);
-  background-repeat: no-repeat;
-  background-position: 80%;
+  background-position: center;
   background-size: cover;
+  background-attachment: fixed;
   position: relative;
   height: 350px;
+  z-index: 2;
+}
+
+.fixing-background::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 153, 153, 0.5);
+  z-index: -1;
 }
 
 .fixing-background2 {
