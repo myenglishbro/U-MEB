@@ -34,7 +34,9 @@ body {
     line-height: 1.7;
     color: var(--body);
 }
-
+.tachado{
+    text-decoration: line-through;
+}
 h1,h2,h3,h4,h5,h6,
 .display-4 {
     color: var(--dark);
