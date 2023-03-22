@@ -9,6 +9,7 @@ hamburguerIcon.addEventListener('click', ()=>{
 });
 
 navOverlay.addEventListener('click', (e)=>{
+    e.preventDefault();
     const currentElement = e.target;
     // console.log(e.target.classList.value);
 
