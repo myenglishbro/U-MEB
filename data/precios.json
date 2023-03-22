@@ -1,0 +1,22 @@
+[
+    {
+       "tipo_curso":"Clase Privada",
+       "precio":28,
+       "tiempo":"1hora" ,
+       "url":"https://images.pexels.com/photos/4458554/pexels-photo-4458554.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+        "tipo_curso":"Clase Privada I",
+        "precio":38,
+        "tiempo":"1hora" ,
+        "url":"https://images.pexels.com/photos/4491461/pexels-photo-4491461.jpeg?auto=compress&cs=tinysrgb&w=600"
+
+     },
+     {
+        "tipo_curso":"Clase Privada II",
+        "precio":48,
+        "tiempo":"1hora" ,
+        "url":"https://images.pexels.com/photos/6347902/pexels-photo-6347902.jpeg?auto=compress&cs=tinysrgb&w=600"
+
+     }
+]
